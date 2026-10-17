@@ -1,0 +1,10 @@
+{
+  "name": "electrocare-web-real-v2",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix may-chu install && npm --prefix giao-dien install",
+    "backend": "npm --prefix may-chu start",
+    "frontend": "npm --prefix giao-dien run dev",
+    "build": "npm --prefix giao-dien run build"
+  }
+}
